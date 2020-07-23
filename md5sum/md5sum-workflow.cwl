@@ -11,7 +11,7 @@ outputs:
 
 steps:
   md5sum:
-    run: md5sum-tool.cwl
+    run: https://raw.githubusercontent.com/dockstore-testing/md5sum-checker/checkerWorkflowWithHTTPImports/md5sum/md5sum-tool.cwl
     in:
       input_file: input_file
     out: [output_file]
